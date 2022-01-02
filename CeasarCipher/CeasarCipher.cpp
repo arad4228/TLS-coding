@@ -1,4 +1,4 @@
-#include <isostream>
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -9,7 +9,7 @@ string Ceasar_Encoder(string message, int key)
     return message;
 }
 
-string Ceaser_Decoder(string message, int key)
+string Ceasar_Decoder(string message, int key)
 {
     for(char &c : message)
     c-= key;
@@ -18,7 +18,7 @@ string Ceaser_Decoder(string message, int key)
 
 int main(void)
 {
-    string message - "This is for Ceaser Cipher Test";
+    string message = "This is for Ceaser Cipher Test";
     cout << (message = Ceasar_Encoder(message, 4)) << endl;
 
     cout << (message = Ceasar_Decoder(message, 4)) << endl;
