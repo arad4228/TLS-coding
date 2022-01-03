@@ -19,8 +19,8 @@ string Ceasar_Decoder(string message, int key)
 int main(void)
 {
     string message = "This is for Ceaser Cipher Test";
-    cout << (message = Ceasar_Encoder(message, 4)) << endl;
+    cout << (message = Ceasar_Encoder(message, 3)) << endl;
 
-    cout << (message = Ceasar_Decoder(message, 4)) << endl;
+    cout << (message = Ceasar_Decoder(message, 3)) << endl;
     return 0;
 }
