@@ -18,7 +18,7 @@ int Powm(int base, int exp, int mod)
     }
     end = time(NULL);
     tiemresult = double(end - start);
-    printf("계산에 걸린 소요시간은 %07f 입니다.\n",tiemresult);
+    printf("계산에 걸린 소요시간은 %04f 입니다.\n",tiemresult);
     return r;
 }
 
@@ -27,7 +27,7 @@ int main(void)
     // 
    
     int base = 3;
-    int exp = 10000000000000;
+    int exp = 1000000;
     int mod = 23;
     // 3의 100승에 대한 mod 23을 취하면?
     int result  = Powm(base,exp, mod);

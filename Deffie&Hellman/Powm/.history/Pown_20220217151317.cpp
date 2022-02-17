@@ -27,7 +27,7 @@ int main(void)
     // 
    
     int base = 3;
-    int exp = 10000000000000;
+    int exp = 100000000000000;
     int mod = 23;
     // 3의 100승에 대한 mod 23을 취하면?
     int result  = Powm(base,exp, mod);
